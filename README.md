@@ -17,6 +17,7 @@ DeFi Protocols and Token Swap Platform**
 
 • Sending Proof: The processor generates the root hash of the Merkle tree and a zero-knowledge proof, which proves the correctness of the transactions. This proof is sent to the Solana blockchain, where it is verified by a smart contract. This verification process proves that all transactions sent by the processor are valid and correct, but without revealing the content of the transactions.
 
+![diagram(35)](https://github.com/virjilakrum/zk-fusion-solana/assets/158029357/347ac599-9c3a-4cc1-945c-f1414f494f0d)
 
 
 

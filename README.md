@@ -91,3 +91,7 @@ pub fn process_instruction(
 
 • Deployment: We will deploy our smart contracts to Solana testnet or mainnet. We will also upload our frontend application to a distributed file system like Celestia or IPFS. On a web server for now.
 
+
+### Environment and Dependencies:
+
+• Install the Anchor framework using ```cargo install --git https://github.com/project-serum/anchor anchor-cli --locked.```

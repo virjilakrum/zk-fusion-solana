@@ -1,4 +1,11 @@
 # zk-fusion
+**Financial Technologies (FinTech)
+DeFi Protocols and Token Swap Platform**
+
+▸ Project Idea: Develop a platform within the decentralized finance (DeFi) ecosystem where users can exchange their assets at high speed and low cost, while providing enhanced privacy.
+
+**Added Value:** With enhanced privacy and scalability, users can manage their assets more securely and efficiently. zk-Rollups offers the fastest token swap experience on the market thanks to Solana's high transaction speed, while maintaining the privacy of user transactions.
+
 ![zk-fusion](https://github.com/virjilakrum/zk-fusion-solana/assets/158029357/c534ce22-0a57-4821-bef9-e863f24a6699)
 **High Performance and Low Latency**
 

@@ -2,6 +2,24 @@
 **Financial Technologies (FinTech)
 DeFi Protocols and Token Swap Platform**
 
+```
+// declare and export the program's entrypoint
+entrypoint!(process_instruction);
+
+// program entrypoint's implementation
+pub fn process_instruction(
+    program_id: &Pubkey,
+    accounts: &[AccountInfo],
+    instruction_data: &[u8]
+) -> ProgramResult {
+    // log a message to the blockchain
+    msg!("say hi to fusion");
+
+    // gracefully exit the program
+    Ok(())
+}
+```
+
 ▸ Project Idea: Develop a platform within the decentralized finance (DeFi) ecosystem where users can exchange their assets at high speed and low cost, while providing enhanced privacy.
 
 **Added Value:** With enhanced privacy and scalability, users can manage their assets more securely and efficiently. zk-Rollups offers the fastest token swap experience on the market thanks to Solana's high transaction speed, while maintaining the privacy of user transactions.

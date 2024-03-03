@@ -30,7 +30,7 @@ DeFi Protocols and Token Swap Platform**
 • Optimization: Rust's compiler optimizations ensure that the handler runs at maximum performance. This is especially critical when processing large amounts of transactions.
 
 
-Leveraging Solana's Parallel Processing Capabilities
+**Leveraging Solana's Parallel Processing Capabilities**
 
 ▸ Solana is a blockchain platform that offers high transaction speed and scalability. This is due, in part, to Solana's Proof of History (PoH) and parallel processing capabilities. The zk-Rollups processor takes advantage of these features of Solana in the following ways:
 
@@ -40,4 +40,36 @@ Leveraging Solana's Parallel Processing Capabilities
 
 ## Architecture
 ![diagram(34)](https://github.com/virjilakrum/zk-fusion-solana/assets/158029357/60f35086-8a0e-405b-9939-800358d30285)
+
+### Stack & Tools
+
+• Rust: We use it to write Solana programs (smart contracts).
+
+• Anchor: We use a framework that facilitates Rust-based smart contract development in Solana.
+
+• zk-SNARKs Libraries: We use them to create zero-knowledge proofs (for example, bellman or halo2 for Rust, libsnark for C++).
+
+• Solana CLI and Solana Web3.js: We use them to interact with the Solana network.
+
+• Next or Vue: We use it for user interface (UI) development.
+
+### Smart Contracts (Anchor-Rust)
+
+• TokenSwap.rs: This contract allows users to send tokens, place buy and sell orders, and match orders.
+
+• zk-Proof Integration: We added a zero-knowledge proof mechanism to transactions to ensure user privacy.
+
+### Frontend Development
+
+• User Interface Design: We designed a web interface where users can easily trade tokens, place trade orders and see swap transactions.
+
+• Web3 Integration: Using the Solana Web3.js library, we connected the frontend to the Solana network and our smart contracts. 
+
+### Testing and Deployment
+
+• Unit Tests: We wrote unit tests for our Smartcontracts using the test tools provided by "Anchor".
+
+• Integration Tests: We tested the integration between frontend and smart contracts.
+
+• Deployment: We will deploy our smart contracts to Solana testnet or mainnet. We will also upload our frontend application to a distributed file system like Celestia or IPFS. On a web server for now.
 

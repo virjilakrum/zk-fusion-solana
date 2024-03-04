@@ -2,23 +2,28 @@
 **Financial Technologies (FinTech)
 DeFi Protocols and Token Swap Platform**
 
-```
-// declare and export the program's entrypoint
-entrypoint!(process_instruction);
 
-// program entrypoint's implementation
-pub fn process_instruction(
-    program_id: &Pubkey,
-    accounts: &[AccountInfo],
-    instruction_data: &[u8]
-) -> ProgramResult {
-    // log a message to the blockchain
-    msg!("say hi to fusion");
+```curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh```
 
-    // gracefully exit the program
-    Ok(())
-}
-```
+```rustc --version```
+
+```cargo install --git https://github.com/coral-xyz/anchor anchor-cli --locked```
+
+```anchor --version```
+
+```sh -c "$(curl -sSfL https://release.solana.com/stable/install)"```
+
+```solana --version```
+
+```anchor init tokenswap_contract --javascript```
+
+```cd tokenswap_contract```
+
+```anchor build```
+
+
+```anchor test```
+
 <img width="822" alt="Ekran Resmi 2024-03-04 02 54 03" src="https://github.com/virjilakrum/zk-fusion-solana/assets/158029357/4434dd44-de6e-4f03-b914-b1162957dd1d">
 
 ▸ Project Idea: Develop a platform within the decentralized finance (DeFi) ecosystem where users can exchange their assets at high speed and low cost, while providing enhanced privacy.
